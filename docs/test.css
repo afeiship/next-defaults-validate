@@ -15,7 +15,6 @@
   width: 100%;
   top: 50%;
   left: 0;
-  margin-top: -0.1em;
   border-top: 0.1em solid;
 }
 
@@ -43,8 +42,32 @@
 
 /*webkit-sassui-icon-close End*/
 .test-webkit-sassui-icon-close {
-  border: 1px solid red;
+  border: 1px dashed seagreen;
+  background: #fefefe;
+  border-radius: 10px;
   width: 320px;
   margin: 20px auto;
   text-align: center;
+  padding: 10px;
+}
+
+.test-webkit-sassui-icon-close h1,
+.test-webkit-sassui-icon-close h3 {
+  font-size: 14px;
+  text-align: left;
+}
+
+.test-webkit-sassui-icon-close h1 {
+  border-left: 3px solid salmon;
+  padding-left: 10px;
+}
+
+.test-webkit-sassui-icon-close h3 {
+  color: #999;
+  padding-left: 14px;
+  margin-bottom: 50px;
+}
+
+.test-webkit-sassui-icon-close p {
+  margin-bottom: 10px;
 }
