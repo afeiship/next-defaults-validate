@@ -1,0 +1,55 @@
+/*webkit-sassui-icon-close Start*/
+
+.webkit-sassui-icon-close {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    color: #000;
+
+    width: 5em;;
+    height: 5em;
+    overflow: hidden;
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        margin-top: -0.1em;
+        border-top: 0.1em solid;
+    }
+    &:before {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    &:after {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+
+    &[data-type=hairline]{
+      &:before,
+      &:after{
+        border-width: 0.1em;
+      }
+    }
+
+    &[data-type=thin]{
+      &:before,
+      &:after{
+        border-width: 0.2em;
+      }
+    }
+
+    &[data-type=heavy]{
+      &:before,
+      &:after{
+        border-width: 0.4em;
+      }
+    }
+}
+
+
+/*webkit-sassui-icon-close End*/
