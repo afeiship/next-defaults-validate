@@ -10,7 +10,7 @@
 }
 
 .webkit-sassui-icon-close:before, .webkit-sassui-icon-close:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   top: 50%;
@@ -28,15 +28,15 @@
   transform: rotate(-45deg);
 }
 
-.webkit-sassui-icon-close[data-type=hairline]:before, .webkit-sassui-icon-close[data-type=hairline]:after {
+.webkit-sassui-icon-close[data-type="hairline"]:before, .webkit-sassui-icon-close[data-type="hairline"]:after {
   border-width: 0.1em;
 }
 
-.webkit-sassui-icon-close[data-type=thin]:before, .webkit-sassui-icon-close[data-type=thin]:after {
+.webkit-sassui-icon-close[data-type="thin"]:before, .webkit-sassui-icon-close[data-type="thin"]:after {
   border-width: 0.2em;
 }
 
-.webkit-sassui-icon-close[data-type=heavy]:before, .webkit-sassui-icon-close[data-type=heavy]:after {
+.webkit-sassui-icon-close[data-type="heavy"]:before, .webkit-sassui-icon-close[data-type="heavy"]:after {
   border-width: 0.4em;
 }
 
