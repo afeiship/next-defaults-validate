@@ -3,8 +3,8 @@ import nx from '@jswork/next';
 nx.defaultsValidate = function (inTarget, inValidates) {
   nx.forIn(inValidates, (path, validate) => {
     const val = nx.get(inTarget, path);
-    const res = validate(val);
-    if (res !== null) {
+    const res = validate(val, inTarget);
+    if (res != null) {
       nx.set(inTarget, path, res);
     }
   });
