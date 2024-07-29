@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-defaults-validate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get defaults by validate function.",
   "homepage": "https://js.work",
   "files": [
