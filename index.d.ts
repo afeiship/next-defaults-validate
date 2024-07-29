@@ -1,0 +1,3 @@
+interface NxStatic {
+  defaultsValidate: any;
+}
