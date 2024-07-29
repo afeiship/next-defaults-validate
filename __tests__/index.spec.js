@@ -47,12 +47,8 @@ describe('api.basic test', () => {
       name: (value) => (value.length > 3 ? 'ANONYMOUS' : value.upperCase()),
       email: (value) => (value?.includes('@') ? null : 'example@email.com'),
       'nested.score': (value, target) => {
-        if (value > target.ava && value < 5) {
-          return '及格';
-        }
-        if (value === 5) {
-          return '满分';
-        }
+        if (value > target.ava && value < 5) return '及格';
+        if (value === 5) return '满分';
         return '不及格';
       }
     });
